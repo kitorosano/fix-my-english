@@ -35,5 +35,5 @@
 {/if}
 
 {#if !$isValidInput}
-  <p class="text-red-500 text-xs italic"><strong>You are not using English! or the text is too short...</strong></p>
+  <p class="text-red-500 text-xs italic text-center md:text-left"><strong>You are not using English! or the text is too short...</strong></p>
 {/if}

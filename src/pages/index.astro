@@ -5,12 +5,12 @@ import Textarea from '../components/Textarea.svelte'
 ---
 
 <Layout title='Welcome to Astro.'>
-  <main class='container mw-w-lg m-auto flex flex-col'>
-    <header class='py-4'>
+  <main class='container max-w-[40rem] lg:max-w-[52rem] h-screen md:h-full m-auto flex flex-col justify-center'>
+    <header class='pb-8 text-center md:py-4 md:text-left'>
       <h1 class='text-3xl font-bold'>Fix my english! 💬</h1>
     </header>
 
-    <div class='flex flex-col gap-y-2'>
+    <div class='flex flex-col gap-y-4 px-4 md:px-0'>
       <Textarea client:visible />
 
       <ButtonSubmit client:visible />

@@ -25,6 +25,6 @@ const handleChange = async (e) => {
   id="result" 
   placeholder="Enter your english to fix" 
   name="comment" 
-  rows="5" 
+  rows="8" 
   cols="40">
 </textarea>
